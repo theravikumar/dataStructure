@@ -18,6 +18,7 @@ class Circular_singly_LinkedList:
         if self.head is None:
             self.head = newNode
             newNode.next = newNode
+            
         else:
             if position == 0:
                 newNode.next = self.head
